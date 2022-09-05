@@ -68,9 +68,6 @@ function App() {
      <section className="pricing py-5">
   <div className="container">
     < div className="row">
-       {/* <Pricecard data={data[0]}/>
-       <Pricecard data={data[1]}/>
-       <Pricecard data={data[2]}/> */}
        {
        data.map((e)=>{
         return <Pricecard data={e}/>;
